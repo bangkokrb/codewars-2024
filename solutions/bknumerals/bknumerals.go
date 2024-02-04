@@ -1,0 +1,37 @@
+package main
+
+import (
+	"fmt"
+)
+
+func sumInts(ints []int) int {
+	s := 0
+	for _, n := range ints {
+		s += n
+	}
+	return s
+}
+
+func main() {
+
+	str := `
+QUALIFYING FOR CODE WAR IS QUITE TRICKY, DEMANDING BOTH BRILLIANCE AND AMBITION. PARTICIPANTS MUST BALANCE ANALYTICAL SKILLS AND NIMBLE PROBLEM-SOLVING, NAVIGATING THROUGH COMPLEX CHALLENGES WITH SPEED AND INNOVATION. IT'S A BATTLEFIELD REQUIRING ADVANCED CODING KNOWLEDGE, A KNACK FOR SOLVING PUZZLES, AND A DEEP PASSION FOR TECHNOLOGY. ONLY THOSE WITH THE DETERMINATION TO EXCEL AND A KEEN ABILITY TO ANALYZE AND INNOVATE CAN HOPE TO STAND OUT IN THIS COMPETITIVE ARENA.`
+
+	total := 0
+
+	for _, ch := range str {
+		if ch == 'B' {
+			total += 100
+		}
+
+		if ch == 'A' {
+			total += 10
+		}
+
+		if ch == 'N' {
+			total += 1
+		}
+	}
+
+	fmt.Println(total)
+}

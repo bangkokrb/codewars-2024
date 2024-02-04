@@ -1,0 +1,52 @@
+---
+answer: 1241
+---
+You've heard of Roman numerals, but have you heard of Bangkok numerals?
+
+In Bangkok numerals:
+
+```
+B = 100
+A = 10
+N = 1
+```
+
+All other letters and spaces are ignored. The order of letters doesn't matter. The Bangkok numeral value is the sum of all letter values.
+
+For example
+```
+BANANA = 100+10+1+10+1+10 = 132
+NEWBIE = 1+100 = 101
+MANGO AND STICKY RICE = 10+1+10+1 = 22
+```
+What is the Bangkok numeral value of:
+
+"QUALIFYING FOR CODE WAR IS QUITE TRICKY, DEMANDING BOTH BRILLIANCE AND AMBITION. PARTICIPANTS MUST BALANCE ANALYTICAL SKILLS AND NIMBLE PROBLEM-SOLVING, NAVIGATING THROUGH COMPLEX CHALLENGES WITH SPEED AND INNOVATION. IT'S A BATTLEFIELD REQUIRING ADVANCED CODING KNOWLEDGE, A KNACK FOR SOLVING PUZZLES, AND A DEEP PASSION FOR TECHNOLOGY. ONLY THOSE WITH THE DETERMINATION TO EXCEL AND A KEEN ABILITY TO ANALYZE AND INNOVATE CAN HOPE TO STAND OUT IN THIS COMPETITIVE ARENA."
+
+------------------------------------------------
+
+คุณคงรู้จักตัวเลขโรมัน แต่คุณคงไม่รู้จักตัวเลขกรุงเทพ
+
+ตัวเลขกรุงเทพประกอบด้วย
+
+```
+B = 100
+A = 10
+N = 1
+```
+
+สนใจแค่ตัวอักษร 3 ตัวข้างต้น ไม่สนใจตัวอักษรอื่นๆ รวมถึงช่องว่าง และลำดับของตัวอักษรไม่มีผล
+
+ตัวเลขกรุงเทพเกิดจากการนำค่าของแต่ละตัวอักษรมารวมกัน
+
+ตัวอย่างเช่น
+
+```
+BANANA = 100+10+1+10+1+10 = 132
+NEWBIE = 1+100 = 101
+MANGO AND STICKY RICE = 10+1+10+1 = 22
+```
+
+อยากถามว่าตัวเลขกรุงเทพของข้อความดังกล่าวเป็นเท่าไหร่
+
+"QUALIFYING FOR CODE WAR IS QUITE TRICKY, DEMANDING BOTH BRILLIANCE AND AMBITION. PARTICIPANTS MUST BALANCE ANALYTICAL SKILLS AND NIMBLE PROBLEM-SOLVING, NAVIGATING THROUGH COMPLEX CHALLENGES WITH SPEED AND INNOVATION. IT'S A BATTLEFIELD REQUIRING ADVANCED CODING KNOWLEDGE, A KNACK FOR SOLVING PUZZLES, AND A DEEP PASSION FOR TECHNOLOGY. ONLY THOSE WITH THE DETERMINATION TO EXCEL AND A KEEN ABILITY TO ANALYZE AND INNOVATE CAN HOPE TO STAND OUT IN THIS COMPETITIVE ARENA."
